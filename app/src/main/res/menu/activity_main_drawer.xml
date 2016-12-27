@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Quick Links">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_first_layout"
+                    android:title="Forum" />
+                <item
+                    android:id="@+id/nav_second_layout"
+                    android:title="Private Messages" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Important">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_third_layout"
+                    android:title="Policies and Procedures" />
+                <item
+                    android:id="@+id/nav_commandannounce"
+                    android:title="Command Announcements" />
+                <item
+                    android:id="@+id/nav_modpack"
+                    android:title="Mod Pack" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Operational Reference">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_promoreqs"
+                    android:title="Promotion Requirements" />
+                <item
+                    android:id="@+id/nav_frequencies"
+                    android:title="Radio Frequencies" />
+                <item
+                    android:id="@+id/nav_calendar"
+                    android:title="Calendar" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Training Reference">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_wtdn"
+                    android:title="Rcts and Pvts: What to Do Next (WIP)" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

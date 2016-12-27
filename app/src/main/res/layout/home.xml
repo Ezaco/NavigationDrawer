@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8e7c6c" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_header"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:text=" Welcome to the official Companion App of the 15th MEU Realism Unit!
+
+ Please report any bugs to the proper topic."
+        android:id="@+id/welcome"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:timeZone="GMT-0600"
+        android:format24Hour="ddMMMyy  k:mm  CST"
+        android:format12Hour="ddMMMyy  k:mm  CST"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:id="@+id/webView"
+        android:layout_gravity="bottom" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:text="Version 1.03 (07NOV16)"
+        android:id="@+id/version"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
